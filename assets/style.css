@@ -1,0 +1,261 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%; /* 1rem == 10px */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* MAIN */
+.container-main{
+    height: 100vh;
+    background-image: url("./images/Fundo-7.png");
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.textos-main{
+    width: 40%;
+    height: 100%;
+    margin-left: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos-main h1{
+    margin: 0;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
+.textos-main p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.textos-main input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ec008c;
+    background-color: transparent;
+    width: 70%;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.textos-main button{
+    border: none;
+    background-image: linear-gradient(45deg, #fb0197, #b3006b);
+    width: 70%;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ec008c;
+}
+
+.rosa{
+    color: #ec008c;
+}
+
+
+/* FIM RESET */
+
+
+/* CONTAINER FAC CHECK */
+.container-check-fac{
+    height: 200vh;
+    background-image: url("./images/fundo-container-check-fac.png");
+    background-size: cover;
+    box-shadow: 0 -20px 20px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+        /* checklist */
+.container-check{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.check-fac-titulo{
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.check-corpo{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    padding: 0 8rem 20rem 8rem;
+    gap: 10rem;
+    margin-top: 3rem;
+}
+
+.check-item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    border: 2px solid #ec008c;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+    border-bottom: 0;
+    padding: 2rem 3rem;
+}
+
+.check-item-icone{
+    width: 10rem;
+}   
+
+.check-item-icone img{
+    width: 100%;
+    height: auto;
+}
+
+
+.check-item-textos{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    justify-content: flex-start;
+}
+
+.check-item-titulo{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.check-item-desc{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+
+
+        /* facilidades */
+
+.container-facilidades{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    width: 100%;
+    padding-top: 30rem;
+}
+
+.fac-corpo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fac-desc{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem 20rem 0 20rem;
+}
+
+.fac-imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 5rem;
+}
+
+.fac-imagens img{
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.fac-imagens img:last-child{
+    margin-top: -10rem;
+}
+
+
+
+/* FAQ */
+
+.container-faq{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.faq-items{
+    margin-top: 3rem;
+    max-width: 45%;
+    width: 100%;
+    cursor: pointer;
+    padding-bottom: 3rem;
+}
+
+.faq-text{
+    font-weight: 700;
+}
+
+.faq-item{
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #888;
+}
+
+.faq-item img{
+    width: 1.5rem;
+    height: auto;
+    transition: all linear 0.3s;
+}
+
+.faq-titulo-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-resposta{
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
